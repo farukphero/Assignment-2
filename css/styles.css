@@ -123,9 +123,7 @@ body{
    
 
  }
- #blog-3:hover{
-  background-image: linear-gradient(to bottom, rgba(0, 17, 255, 0.808), rgb(255, 255, 255));
- }
+   
 
  #blog-3 a {
    color: rgb(255, 255, 255);
@@ -248,7 +246,6 @@ body{
  }
  .introduction h1 {
    font-size: 8vw;
-   color: black;
   }
  
  .intro-part-2 img {
@@ -418,8 +415,6 @@ match.html part css
 .team {
 
   white-space: nowrap;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 0%;
-  margin-bottom: 0%;
+  padding:0% 10%;
+  margin:0% 0%;
 }
