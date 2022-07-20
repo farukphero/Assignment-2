@@ -11,28 +11,34 @@ body{
   display: flex;
   background-color:rgb(189, 151, 28);
   color: white;
-  height: 600px;
+  height: 100%;
   border-radius: 30px;
-  width: 90%;
+  width: 80%;
   margin: 50px auto;
+  margin-top:50px ;
+   
 }
 .introduction{
-  font-size:1.3vw;
-  padding: 40px;
-  padding-left: 100px;
-  width:50%;
+  font-size:1.2vw;
+  padding-left: 80px;
+  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-right: 15px;
+  width: 55%;
  
 }
   
-.introduction h1{font-size:3.3vw;
+.introduction h1{
+  font-size:3.5vw;
+  color: white;
   
    
 }
  
+ 
 .intro-part-2  img {
-  height: 580px;
-  width: 80%;
-  margin-top: 20px;
+  height: 100%;
+  width: 100%;
    
   
 }
@@ -55,7 +61,7 @@ body{
 .container {
   display: flex;
   gap: 24px;
-  width: 90%;
+  width: 80%;
   margin: 50px auto;
   margin-top: 130px;
 
@@ -151,7 +157,7 @@ body{
  .transfer-button p{
   font-family: 'Poppins';
   font-weight: 600;
-  font-size: 30px;
+  font-size: 20px;
   
   color: #161616;
  }
@@ -162,6 +168,26 @@ body{
  }
  .fa-solid, .fa-brands{
   padding-right: 10px;
+  
+ }
+ #view-all{display: inline-block;
+  display: none;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgb(230, 38, 38);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700px;
+  border-radius: 10px;
+  padding: 20px 30px;
+  margin-left: 50%;
+  margin-top: 20px;
+   
+   
+  
+   
+ 
+  
   
  }
  footer{
@@ -209,32 +235,34 @@ body{
     flex-direction: column;
     }
     .introduction {
-      font-size:3.5vw;
+      font-size:3.8vw;
       width: 90%;
-      height: 50%;
-      padding:20px;
-      padding-top: 0%;
+      height: 100%;
+      padding: 20px;
+      padding-top:0%;
+     
     
       
 
  }
  .introduction h1 {
-   font-size: 7vw;
+   font-size: 8vw;
+   color: black;
   }
  
  .intro-part-2 img {
   
-  width: 95%;
-  height: 70%;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
   margin-bottom: 0%;
-  
+    
   
     
 }
 #button {
-  margin-left: 20%;
+  margin-left: 10%;
+   
 }
 .container{
   display: flex;
@@ -293,4 +321,58 @@ margin: 0% auto;
 
 /* tablet device */
 
- 
+ @media only screen and (min-width:768px) and (max-width: 1023px){
+
+.container {
+      display: flex;
+      flex-direction: column;
+      
+  
+ }
+.clickable-button {
+  display: flex;
+  background-color: transparent;
+  width: 100%;
+  margin-right: 30px;
+}
+#blog-1 {
+  box-shadow: 0px 0px 1px;
+  width: 60%;
+}
+
+#blog-2 {
+  box-shadow: 0px 0px 1px;
+  width: 60%;
+  
+}
+#blog-3{
+  width: 60%;
+}
+.picture-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.picture-part > .hidden {
+  display: none;
+
+}
+#view-all{
+  display:inline-block;
+  margin-left: 40% ;
+  
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid gray;
+  margin: 5% auto;
+
+}
+footer li {
+  
+   white-space: nowrap;
+   font-size: 20px;
+    }
+
+}

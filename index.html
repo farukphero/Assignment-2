@@ -10,7 +10,7 @@
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
   <!-- font-awesome -->
   <script src="https://kit.fontawesome.com/48353d36b3.js" crossorigin="anonymous"></script>
 </head>
@@ -37,13 +37,14 @@
   <!----------------
       main part
   ------------------>
-  <main class="container">
-    <section class="clickable-button">
-       <div id="blog-1"><a href=""> Upcoming Match</a></div>
-       <div id="blog-2"><a href="">All Groups</a></div>
-       <div id="blog-3"><a href="">Blog</a></div>
-    </section>
-    <section class="picture-part">
+  <main>
+    <section class="container">
+      <article class="clickable-button">
+        <div id="blog-1"><a href=""> Upcoming Match</a></div>
+        <div id="blog-2"><a href="">All Groups</a></div>
+        <div id="blog-3"><a href="">Blog</a></div>
+      </article>
+      <article class="picture-part">
         <div class="blog-part-2">
           <img src="assets/Blog Image.png" alt="">
           <div class="transfer-button">
@@ -124,9 +125,9 @@
             <a class="icons"><i class="fa-brands fa-rocketchat"></i>25</a>
           </div>
         </div>
-        <div class="blog-part-2">
+        <div class="blog-part-2 hidden">
           <img src="assets/Blog Image.png" alt="">
-          <div class="transfer-button">
+          <div class="transfer-button hidden">
             <button>Transfer</button>
             <p>Transfer Live: Chlesea in talks
               over Kimpenbe transfer</p>
@@ -134,7 +135,11 @@
             <a class="icons"><i class="fa-brands fa-rocketchat"></i>25</a>
           </div>
         </div>
+    
+      </article>
+    
     </section>
+     <a id="view-all" href="">View All</a>
   </main>
   <!-- footer part -->
   <footer>
