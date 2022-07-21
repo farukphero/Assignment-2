@@ -7,6 +7,15 @@ body{
   
  
 }
+ @keyframes sliding {
+  from{background-color: rgb(189, 151, 28);
+
+  }
+  to{ background-color: rgb(66, 63, 63);
+
+  }
+  
+ }
 .header{
   display: flex;
   background-color:rgb(189, 151, 28);
@@ -16,17 +25,16 @@ body{
   width: 80%;
   margin: 50px auto;
   margin-top:50px ;
-  transition:background-color 5s ease, transform 5s;
+  transition:background-color 5s ease;
+  animation: sliding 5s ease-in-out .1s infinite alternate ;
+  animation-play-state:running ;
 }
  #m-header:hover{
   background-color: black;
   
  }
  #group-sec:hover{
-  background-color: chocolate;
- }
- #group-sec:hover #button{
-  transform: translateX(50%);
+  background-color: rgb(66, 63, 63);
 
  }
 .introduction{
